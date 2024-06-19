@@ -1,23 +1,94 @@
 .header{
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
-    height: 300px;
+    height: 100px;
     color: white;
     background-color: #1F2937;
 }
-.left{
-    font-size: 24px;
+
+.headerRightSide{
+    height: 150PX;
+    width: 500PX;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color: coral;
+    margin-left:50px;
+    background-color: gray;
+    justify-content: center;
+
+}
+
+.underHead{
+    color: white;
+}
+.headerContinue {
+    height: 150px;
+    font-size: 30px;
+
+
+}
+.buttonSignUp{
+    color: #ffffff;
+    height: 30PX;
+    background-color: #3882F6;
+    width: 99px;
+    border: none;
+    border-radius: 12px;
+}
+
+.banner {
+    flex-wrap: wrap;
+    justify-content: center;
+    color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 200px;
+    background-color: #1F2937;
+}
+.header>.left{
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
 }
 .rightLinks{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
+    color: lightgrey;
 }
 
 .picsHeader {
     display: flex;
+    justify-content: space-around;
 }
 
 .quote {
+    margin-top: 50px;
     display: flex;
+    height: 200px;
+    border: solid;
+    background-color: lightblue;
+    border-color: #3882F6;
+}
+
+.quote > div{
+    color: black;
+    font-size: 50px;
+    font-style: italic;
+    justify-content: center;
+    
+}
+
+
+#Winnie{
+    justify-content: flex-end;
+    margin-top: 20px;
+    display: flex;
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+
+
 }
 
 .signUp{
@@ -26,4 +97,12 @@
 
 .footer {
     display: flex;
+}
+
+.picsHeader .photoContent{
+    color: #3882F6;
+    height: 150px;
+    border-radius: 12px;
+    width: 150px;
+    border-style: solid;
 }
