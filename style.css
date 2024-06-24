@@ -91,12 +91,48 @@
 
 }
 
+
+
 .signUp{
+    justify-content: space-around;
     display: flex;
+    background-color: #3882F6;
+    height: 150px;
+    width: auto;
+    margin: 90px;
+    border-radius: 12px;
+}
+
+.signUp .callToAct{
+    margin: 20px;
+    margin-bottom: 30px;
+    color: azure;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.secondButton{
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #3882F6;
+    border-color: white;
+    height: 40px;
+    color: white;
+    width: 150px;
+    margin-top: 30px;
+}
+
+#SignupText {
+    color: azure;
+    font-size: large;
+
 }
 
 .footer {
+    justify-content: center;
+    align-items: center;
     display: flex;
+    background-color: #1F2937;
+    height: 80px;
 }
 
 .picsHeader .photoContent{
@@ -105,4 +141,10 @@
     border-radius: 12px;
     width: 150px;
     border-style: solid;
+}
+
+.footer .text {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
